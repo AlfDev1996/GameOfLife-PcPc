@@ -1,0 +1,3 @@
+mpicc -o run main.c
+
+mpirun -np 1 run n_colonne n_righe n_iterazioni
